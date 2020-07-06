@@ -105,7 +105,7 @@ export const Home = () => {
                             item.page['content-items'].content.map((ele, j) => (
                                 <div className="col-span-1" key={item.page['page-num-requested'] + j} >
                                     {/* <LazyLoad once > */}
-                                    <img src={"Slices/" + ele["poster-image"]} onError={imageError} style={{height :'200px' , width :'233px'}} />
+                                    <img src={"Slices/" + ele["poster-image"]} onError={imageError} style={{height :'200px' , width :'133px'}} />
                                     {/* </LazyLoad> */}
                                     <p>{ele.name}</p>
                                 </div>
